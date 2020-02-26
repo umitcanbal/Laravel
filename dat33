@@ -1,0 +1,11 @@
+
+
+"php artisan make:migration create_reviews_table"
+
+terminale buna yazdığında, database/migration dosyasının içinde bi php dosyası oluşturmuş oluyosun, up ve down methodları var, istediğin gibi modifiye et.
+
+EE burada sadece fonksiyonu tanımladım, bunu nasıl çağırıcam?
+Controllerdan değil, controllerdan sadece browserda userın göreceği şeyleri çağırıyorum, bu olaysa back-endde dönüyo.
+Cevap: terminalden methodu çağırmam lazım. Nasıl? Aşağıdaki gibi;
+
+"php artisan migrate"
