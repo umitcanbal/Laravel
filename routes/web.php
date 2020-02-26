@@ -24,6 +24,3 @@ Route::get('/', function () {
 // Route::get('/books-orm/create', 'BookORMController@create');
 // Route::get('/books-orm/{id}', 'BookORMController@show');
 
-Route::get("/publishers", "PublisherController@index");
-Route::get("/publishers/{publisher_id}", "PublisherController@show");
-// Route::get("/publishers/{Burada ne yazdığı hiç önemli değil ama variable olduğunu belirtmen lazım}", "PublisherController@show");
