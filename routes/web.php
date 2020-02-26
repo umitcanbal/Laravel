@@ -27,3 +27,5 @@ Route::get('/', function () {
 Route::get("/publishers", "PublisherController@index");
 Route::get("/publishers/{publisher_id}", "PublisherController@show");
 // Route::get("/publishers/{Burada ne yazdığı hiç önemli değil ama variable olduğunu belirtmen lazım}", "PublisherController@show");
+
+//ilk halini tekrar commitliyorum
