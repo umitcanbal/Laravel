@@ -19,3 +19,9 @@ Route::get('/', function () {
 // Route::get('/api/books', 'APIBookController@index');
 
 // Route::get('/books', 'BookController@index');
+
+// Route::get('/books-orm', 'BookORMController@index');
+// Route::get('/books-orm/create', 'BookORMController@create');
+// Route::get('/books-orm/{id}', 'BookORMController@show');
+
+333
